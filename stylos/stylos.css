@@ -132,12 +132,13 @@ h1{
     background-image: url("../img/sdd.jpg");
 }
 
-.general2{
-    display: flex;
-}
+
 
 /*segunda divsion...................................................*/
 
+.general2{
+    display: flex;
+}
 .container2{
     margin-top: 20px;
     width: 200px;
@@ -240,15 +241,47 @@ h1{
 /*sesta divsion ----------------------------------------------------------*/
 
 .general6{
-    margin: 80px;
-    background-image: url("../img/kk.jpg");
-    background-size: cover;
-    width: 1200px;
-    height: 700px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    margin-left: 180px;
+    width: 1000px;
+    height: 600px;
 }
 
-.general6:hover{
-    background-image: url("../img/dustin.jpg");
+
+.slider{
+    background-image: url(../img/dustin.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 600px;
+    animation: animate 10s infinite;
+}
+
+@keyframes animate {
+    20%{
+        background-image: url(../img/mac.jfif);
+        background-size: cover;
+    }
+
+    40%{
+        background-image: url(../img/ga.webp);
+        background-size: cover;
+    }
+
+    60%{
+        background-image: url(../img/ed.jpg);
+        background-size: cover;
+    }
+
+    80%{
+        background-image: url(../img/ja.jpg);
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url(../img/has.webp);
+        background-size: cover;
+    }
 }
 
 /*septima divsion ----------------------------------------------------------*/
