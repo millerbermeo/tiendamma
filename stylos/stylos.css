@@ -128,6 +128,8 @@ h1{
     width: 60px;
     height: 50px;
 }
+
+
 /*primera division-------------------------------------------------*/
 
 
@@ -274,6 +276,7 @@ a{
 
 
 
+
 /*cuarta divsion ----------------------------------------------------------*/
 
 .general4{
@@ -301,6 +304,18 @@ a{
     border-bottom: 1px solid rgb(196, 194, 194) ;
 }
 
+.container4 .carrito{
+    display: flex;
+
+}
+
+.container4 .carrito img{
+    width: 20px;
+    height: 20px;
+    padding-top: 22px;
+    padding-left: 5px;
+}
+
 /*quinta divsion ----------------------------------------------------------*/
 
 .general5{
@@ -323,6 +338,18 @@ a{
 
 .container5 p{
     border-bottom: 1px solid rgb(196, 194, 194) ;
+}
+
+.container5 .carrito{
+    display: flex;
+
+}
+
+.container5 .carrito img{
+    width: 20px;
+    height: 20px;
+    padding-top: 22px;
+    padding-left: 5px;
 }
 
 /*sesta divsion ----------------------------------------------------------*/
