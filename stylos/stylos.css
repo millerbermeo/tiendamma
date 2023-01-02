@@ -1,3 +1,6 @@
+/*body{
+    background-color: #f2f2f2;
+}*/
 .slide-text{
     display: flex;
     font-size: 12px;
@@ -5,6 +8,9 @@
 
 .artes{
     overflow: hidden;
+}
+#sliderr{
+    padding-left: 40px;
 }
 
 
@@ -85,11 +91,10 @@ h1{
     color: #1b538e;
 }
 #mover{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #moveru{
-    margin-left: 350px;
     width: 70px;
     height: 30px;
     padding: 13px;
@@ -99,7 +104,6 @@ h1{
     background-color: rgb(0, 0, 0);
     height: 55px;
     display: flex;
-
 }
 
 
@@ -109,7 +113,8 @@ h1{
     height: 42px;
     width: 120px;
     padding-top: 13px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     color: aliceblue;
 }
@@ -130,11 +135,77 @@ h1{
 }
 
 
+/*interfaz principal-------------------------------------------------*/
+#quitar{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.interfaz{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.portada{
+    margin-left: 50px;
+    display: block;
+}
+
+
+.imagenP1{
+    padding-top: 20PX;
+    width: 500px;
+    height: 300px;
+}
+
+.imagenP2{
+    width: 500px;
+    padding-top: 20PX;
+    height: 200px;
+}
+
+
+.imagenP3{
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    padding-right: 30px;
+}
+
+.imagenP31{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
+    padding-right: 30px;
+}
+
+.portada1{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+.menu{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 85px;
+    padding-left: 320px;
+    height: 525px;
+    background-image: url(../img/floyd.jpg);
+    background-size: cover;
+}
+
 /*primera division-------------------------------------------------*/
 
 
 .general{
+    padding-top: 50px;
     display: flex;
+
 }
 
 .container1{
@@ -211,10 +282,11 @@ h1{
     margin-top: 20px;
     width: 200px;
     margin-left: 61px;
-    background-color:#1b538e;;
+    background-color:#1b538e;
     border-radius: 90px;
     height: 40px;
     color: aliceblue;
+
 }
 
 .container2 h2 {
@@ -239,7 +311,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .texto1{
-    color: rgb(255, 0, 0);
+    color: #1b538e;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -248,6 +320,118 @@ p{
 a{
     text-decoration: none;
 }
+
+.oferta{
+    display: flex;
+    padding-top: 1px;
+}
+
+.oferta p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 4px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.oferta img{
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+}
+/* prubaaaa divsion ----------------------------------------------------------*/
+.general{
+    display: flex;
+}
+
+.container1d{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    background-image: url("../img/venum.jpg");
+    background-size: cover;
+}
+
+.container1d:hover{
+    background-image: url("../img/venum1.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.container12d{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    background-image: url("../img/casco.jpg");
+    background-size: cover;
+}
+
+.container12d:hover{
+    background-image: url("../img/casco1.jpg");
+}
+
+.container13d{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    background-image: url("../img/bola1.jpg");
+    background-size: cover;
+}
+
+.container13d:hover{
+    background-image: url("../img/bola.jpg");
+}
+
+.container14d{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/shor.jpg");
+    margin-left: 60px;
+    background-size: cover;
+}
+
+.container14d:hover{
+    background-image: url("../img/shor1.jpg");
+}
+
+.container15d{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/ree.jpg");
+    margin-left: 60px;
+    background-size: cover;
+}
+
+.container15d:hover{
+    background-image: url("../img/ree1.webp");
+}
+
+
+/*separacion -------------------------------------------------*/
+
+.separacion{
+    width: 1348px;
+    height: 200px;
+    color: white;
+    background-image: url(../img/bannne.png);
+    background-size: cover;
+}
+
+.separacion1{
+    display: flex;
+    margin-left: 300px;
+
+}
+
+.izquierda{
+    float: left;
+    
+}
+
+.derecha{
+    float: right;
+    padding-left: 600px;
+}
+
 
 /*tercera divsion ----------------------------------------------------------*/
 
@@ -315,6 +499,11 @@ a{
     padding-top: 22px;
     padding-left: 5px;
 }
+
+#imagen-corazon{
+    padding-left: 215px;
+}
+
 
 /*quinta divsion ----------------------------------------------------------*/
 
@@ -444,3 +633,84 @@ a{
     height: 30px;
     padding-left: 5px;
 }
+
+
+
+
+
+/*seccion de cabera animacion 2*/
+
+
+
+
+
+.slide-text2{
+    display: flex;
+    font-size: 12px;
+}
+
+.artes2{
+    overflow: hidden;
+}
+#sliderr{
+    padding-left: 40px;
+}
+
+
+.slide-text2 h2{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.artes2 ul li{
+    font-family: ufc;
+    list-style: none;
+    color: blue;
+    font-weight: 20px;
+}
+
+
+.artes2 ul{
+    width: 220px;
+    height: 70px;
+    animation: slide 15s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+.artes2 li{
+    height: 70px;
+    top: 100%;
+    font-size: 27px;
+}
+
+.artes2 li:first-child{
+    top: 100%;
+}
+
+.artes2 li:last-child{
+    top: 300%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateY(0);
+    }
+
+    15%, 30%{
+        transform: translateY(-100%);
+    }
+
+    45%, 60%{
+        transform: translateY(-200%);
+    }
+
+    75%, 90%{
+        transform: translateY(-300%);
+    }
+
+    100%{
+        transform: translateY(-400%);
+    }
+}
+
+
+
